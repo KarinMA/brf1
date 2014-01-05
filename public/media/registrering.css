@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {background-color: #f3f2ec;}
+
+#header { width: 800px;
+margin:auto; }
+
+#logga {float:left;}
+
+#rubrik {width: 630px;
+margin:auto;
+clear:both;}
+
+h1 { text-align:center;
+font-family: 'Open Sans', sans-serif;
+font-size:40px;
+font-weight:100;
+padding-bottom:20px;
+border-bottom: 1px solid #000;
+width:630px;}
+
+h2 { font-family: 'Open Sans', sans-serif;
+font-size:40px;
+font-weight:100;
+padding-bottom:20px;}
+
+.h1_bold { font-weight:bold;}
+
+h3 {font-family:'Open Sans', sans-serif;
+font-weight:100;
+font-size:20px;}
+
+p {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+/*
+p {font-family: 'Open Sans', sans-serif;
+font-size:13px;}
+*/
+#wrapper { 
+width: 800px;
+min-height: 900px;
+background-color:#FFF;
+border: 1px solid #e6e5e2;
+margin:auto;
+border-radius:10px;
+-moz-border-radius:10px; /* Firefox 3.6 and earlier */}
+ 
+.bla_rubrik {
+margin-top: 30px;
+margin-left: -15px;
+}
+ 
+
+
+#left {float:left; 
+width: 200px;
+background-color:#FFF;
+margin-left:15px;}
+
+#right {float:right; 
+width:451px;
+background-color:#FFF;
+margin-top:5px;}
+
+.hoger_bild { margin-top:5px;}
+
+#bild_medlem {
+   width: 250px;
+   height: 200px;
+   padding: 10px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border: 1px dashed #BBB; 
+   text-align: center;
+   background-color: #DDD;
+   cursor:pointer; 
+   }
+ 
+ /*formulär*/
+   
+textarea {resize:none; }
+
+
+/*listor*/
+ul { margin-left:-40px; 
+margin-top:-15px;}
+
+li {list-style-type:none;
+text-align:center;
+display:inline;
+}
+
+.dokument {text-align: left;
+margin-left:20px;
+margin-top:0px;
+}
+
+.dokument1 {
+text-align: left;
+position:relative;
+left:40px;
+top:20px;
+}
+
+.dokument2 {margin-bottom: 40px; } 
+
+
+.overskrift {padding-bottom:20px;
+padding-top:10px;
+font-size:18px;}
+
+
+.ta_bort {width:53px;
+height:12px;
+float:left;
+padding: 5px 8px;
+margin-top:-15px;}
+
+
+.bild {height:53px; 
+width:53px;
+border:1px solid #ccc;
+padding:5px;
+}
+
+/*länkar*/
+a { text-decoration:none;
+color:#09F; }
+
+a:hover {text-decoration:underline; }
+
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}

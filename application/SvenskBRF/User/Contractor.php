@@ -1,0 +1,18 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of Member
+ *
+ * @author John Jansson
+ */
+class SvenskBRF_User_Contractor extends SvenskBRF_User
+{
+    
+}
+
+?>

@@ -1,0 +1,27 @@
+php_value error_reporting -1
+php_value error_log /www/webvol20/wg/549uf1ny9u5867o/svenskbrf.se/log/httpd-error.log
+php_value log_errors_max_len 52428800
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^svenskbrf.se
+RewriteRule (.*) http://www.svenskbrf.se/$1 [R=301,L]
+RewriteRule ^tipsa/?([a-z0-9_]+)?/?$ tipsa1.php?brf=$1 [NC,L]
+RewriteRule ^aktivera/?([a-z0-9_]+)?/?$ aktivera1.php?brf=$1 [NC,L]
+RewriteRule ^([a-z0-9_]+)/maklarinfo_utskrift$ brf_public_maklarinfo_utskrift.php?brf=$1 [NC,L]
+RewriteRule ^temppictureuser.php$ temppictureuser.php [NC,L]
+RewriteRule ^temppicture.php$ temppicture.php [NC,L]
+RewriteRule ^temppictureadm.php$ temppictureadm.php [NC,L]
+RewriteRule ^login/?$ index.php?login=1 [NC,L]
+RewriteRule ^press/?$ press.php [NC,L]
+RewriteRule ^lar_dig_mer/?$ press.php [NC,L]
+RewriteRule ^villkor/?$ villkor.php [NC,L]
+RewriteRule ^for_maklare/?$ for_maklare.php [NC,L]
+RewriteRule ^avboka/?([a-z0-9]+)?/?$ avboka1.php?code=$1 [NC,L]
+RewriteRule ^glomtlosenord/?$ glomtlosenord1.php [NC,L]
+RewriteRule ^nyttlosenord/?([a-z0-9]+)?/?$ nyttlosenord1.php?key=$1 [NC,L]
+RewriteRule ^admin/?([a-z]+)?/?$ index.php?admin=1&view=$1 [NC,L]
+RewriteRule ^registrera/grattis$ brf_registrera.php?step=11 [NC,L]
+RewriteRule ^registrera/?([1-9][01]?)?/?([a-z0-9]+)?/?$ brf_registrera.php?step=$1&registerCode=$2 [NC,L]
+RewriteRule ^tjanster/?$ index.php?services=1 [NC,L]
+RewriteRule ^([a-z0-9_]+)/?([a-z0-9_]+)?/?([_a-zA-Z0-9\-]+)?/?([_a-zA-Z0-9\-]+)?/?$ index.php?brf=$1&view=$2&subview=$3&parameter=$4 [NC,L]

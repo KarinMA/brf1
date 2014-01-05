@@ -1,0 +1,454 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Hela sidan */
+
+body {background-color: #fff;} 
+
+b {font-weight:bold; }
+
+a img { border: none; }
+
+h1 {color: #f48136;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;}
+
+h2 { 
+    margin-left: 1px;
+    margin-top:30px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #09F;
+    font-weight:100;}
+
+h3 {color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    font-size:25px;
+    position:relative;
+    left: 165px;
+    top: 60px;}
+
+h5 {color: #666;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    font-weight:100;
+    margin-bottom:-10px;
+}
+
+h6 { font-family: 'Open Sans', sans-serif;
+     font-size:22px; 
+     font-weight:100;
+     margin-bottom:-10px;
+}
+
+
+h4 {color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    font-size: 20px;
+}
+
+p {font-family: 'Open Sans', sans-serif;
+   font-weight:100;
+   font-size:13px;
+   color:#000;}
+
+#content {width: 1000px;
+          min-height: 740px;
+          height:auto;
+          /*background-color: #f8f4f4;*/
+          background-color: #e5e8ea;
+          margin-right:auto;
+          margin-left:auto;}
+
+
+
+
+/*Header */
+
+#header {background-color:#d3e8f5;
+         width: 1000px;
+         height: 220px;
+         margin-top: -20px;}
+
+
+/* tillagt istället för #sok p */
+.sok { font-family: 'Open Sans', sans-serif;
+       font-weight:100;
+       font-size:14px;
+       position:relative;
+       left:595px;
+       top: 70px;
+}
+
+#sok {
+    background-image: url("../start/img/sok.png");
+    background-repeat: no-repeat;
+    height: 45px;
+    left: 620px;
+    position: relative;
+    top: 60px;
+    width: 300px;
+}
+
+/* tillagt, skivbart textfält */
+input {
+    border: medium none;
+    color: #000000;
+    padding-left: 10px;
+}
+
+
+input.sok_margin {
+    border: medium none;
+    color: #000000;
+    padding-left: 30px;
+}
+
+#header p { color: #000;
+margin-left: 45px;
+margin-top: -5px;
+width: 300px;
+ }
+
+#logga {margin-top: -20px;
+        margin-left: 25px;}
+
+
+
+
+/* navigation top, listor */
+
+.huvudmeny {list-style-type: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight:100;
+            font-size:16px;
+            width: 900px;
+            position:relative;
+            left: 20px;
+          
+            
+            top: -5px;
+}
+
+li.lista {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+ul.lista {
+    margin-left: -20px;
+}
+ 
+/*ul {list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    font-size:22px;
+    width: 850px;
+    position:relative;
+    left: 140px;
+    top: -15px;}
+*/
+
+ul li.meny {
+    display: inline;
+    margin: 0px;
+    padding-left: 40px;
+    color:#fff;}
+
+
+ul li.orange {color:#f48136;
+              font-weight:300;}
+
+a {text-decoration: none;
+   color: #0099FF;}
+
+ul li.meny a { display: inline-block;
+          padding: 5px;
+          color:#000;
+          text-decoration:none;}
+
+ul li.meny a:active {color:#7eccf5; }
+
+ul li.meny a:hover {color:#7eccf5; }
+
+
+
+
+/* Rubrik - topcontent*/
+
+#text_vanster { width: 350px; }
+
+#valkommen { 
+    position:relative;
+    left: 410px;
+    top:5px;
+}
+
+#gra_ruta { width:900px;
+            height: 30px;
+            margin-right:auto;
+            margin-left:auto;
+            margin-top: -12px;
+            background-color: #999;
+            border-radius:10px;
+            -moz-border-radius:10px; /* Firefox 3.6 and earlier */}
+
+.gra_text { 
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    font-size:12px;
+    width: 900px;
+    position: relative;
+    left: -50px;
+    top: 7px;}
+
+
+#knappar { 
+    position:relative;
+    left: 440px;
+    top:-45px;
+}
+
+
+/* ul bildspel */
+
+ul.bildspel { list-style-type: none;
+              position:relative;
+              left: -50px;
+              top: -15px;}
+
+ul.bildspel li {
+    display: inline;
+    margin: 0px;
+    padding-left: 1px;}
+
+ul.bildspel li a { padding:0px;}
+
+ul.bildspel a:hover img{
+    opacity:0.0;
+}
+
+ul.bildspel a:hover { background-image:url("../start/img/bla_prick.png");
+                      background-repeat:no-repeat; }
+
+
+
+/* vit bakgrund*/
+.box { width:900px;
+       height: auto;
+       margin-right:auto;
+       margin-left:auto;
+       margin-top:10px;
+       position:relative;
+       background-color: #FFF;
+       border-radius:10px;
+       -moz-border-radius:10px; /* Firefox 3.6 and earlier */}
+
+.box1  { width:900px;
+         height: auto;
+         margin-right:auto;
+         margin-left:auto;
+         margin-top:10px;
+         margin-bottom:-20px;
+         position:relative;
+         background-color: #FFF;
+         border-radius:10px 10px 0px 0px;
+         -moz-border-radius:10px 10px 0px 0px; /* Firefox 3.6 and earlier */}
+
+
+.box3  { width:900px;
+         height: auto;
+         margin-right:auto;
+         margin-left:auto;
+         margin-top:10px;
+         margin-bottom:-20px;
+         position:relative;
+         background-color: #FFF;
+         border-radius:10px 10px 0px 0px;
+         -moz-border-radius:10px 10px 0px 0px; /* Firefox 3.6 and earlier */}
+
+
+
+.bottenmarginal { width:800px;
+                  height: 30px;
+                  padding-bottom: 30px;}
+
+
+.ikon {padding-right: 20px;
+       padding-left: 20px;
+       position: relative;
+       top:10px;}
+
+.hoger { width:380px;
+         margin-right: 40px;
+         margin-top:25px;
+         float:right;
+         min-height: 100px;
+         height:auto;}
+
+.vanster { width:380px;
+           float:left;
+           margin-left:40px;
+           margin-top:25px;
+           min-height: 100px;
+           height:auto;
+}
+
+.height { height: auto;}
+
+.clear { clear:both;}
+
+p.margin {margin-left: 80px;
+          margin-right: 20px;}
+
+#aktivera_vanster { width: 320px;}
+
+#aktivera_hoger { width: 430px;
+                  padding-top:30px;
+                  height:300px;}
+
+.sok2 { border:1px solid #ddd; 
+        border-radius:5px; 
+        width: 250px; 
+        height: 35px; }
+
+
+
+/*formulär*/
+
+table {
+    margin-left: 78px;
+    position: relative;
+    top: -271px;}
+
+
+.skicka2 { margin-bottom:14px;}
+
+
+
+
+
+
+
+/*tipsa */
+
+
+#left, #mitt, #right {
+    margin:0px; 
+    padding:0px;
+}
+
+#left { float:left;
+        width: 190px;
+        padding-left:30px;
+        padding-right:30px;
+        margin-bottom:20px;}
+
+#mitt { width: 250px;
+        float:left;
+        margin-right:80px;}
+
+.text_ram {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    height: 162px;
+    margin-top: 0;
+    width: 260px;
+}
+
+#right { width: 100px;
+         float: left; }
+
+#tipsa {background-color:#d2e9d1;
+        min-height: 250px;}
+
+
+.box2 { position: relative;
+        left: 120px;
+        display:inline;}
+
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    font-size:15px;
+    margin-top:35px;}
+
+.text2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    font-size:15px;
+    margin-top:-25px;}
+
+.tipsa_text { margin-top:-10px;}
+
+.skicka {position:relative;
+         left: 150px;
+         top:10px;}
+
+
+
+div#inline  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left:10px;
+    margin-top:1px;
+}
+
+.form { border: 1px solid #DDDDDD;
+        border-radius: 5px 5px 5px 5px;
+        height: 35px;
+        width: 250px;
+}
+
+
+/*
+.tipsa_form {
+    margin-left: 400px;
+    padding-top: 10px;
+    width: 300px;
+}*/
+
+div#inline ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+
+
+
+
+/*kontakt*/
+
+#fot { margin-left:0px;
+       position: relative;
+       top:17px;}
+
+.kontaktuppgifter { width: 800px;
+                    margin-top: 0px;}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

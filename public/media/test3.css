@@ -1,0 +1,325 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+    height: 100%;
+    overflow: auto;
+}
+
+
+body { background-color:#f3f2ec; }
+
+#wrapper {
+    height: 99%;
+	background-color:#f3f2ec;
+	width: 930px;
+	margin:auto;
+}
+
+
+p { font-family:'Open Sans', sans-serif;
+	margin-left: 35px;
+	margin-right: 35px;
+	font-size:12px;
+}
+
+
+h4 {font-family:'Open Sans', sans-serif;
+	font-weight:100;
+	font-size:30px;
+	margin-left:35px;
+	margin-top:30px;
+	margin-bottom:-10px;
+}
+
+
+
+
+/*---------------------------------------ovanför header--------------------------------------------*/
+
+#top {
+    height:100px;
+    padding: 2px;
+    width: 99%;
+	background-color:#f3f2ec;
+	margin-bottom:10px;
+}
+
+.namn {
+	font-family:'Open Sans', sans-serif;
+	font-weight:100;
+	font-size:12px;
+	margin-left: 15px;
+	padding-bottom: 5px;
+}
+
+.namn1 {
+	font-family:'Open Sans', sans-serif;
+	font-weight:100;
+	font-size:12px;
+	margin-left: 15px;
+}
+
+.logga_in {  background-image: url("./brf/lgin.png");
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 92px;
+	border: none;
+	background-color: #f3f2ec;
+}
+   
+#logga_ut {
+    font-size: 10px;
+    margin-left: 160px;
+    margin-top: -10px;
+}
+
+#ok {
+    height: 20px;
+    position: relative;
+    right: -97px;
+    top: -22px;
+    width: 35px;
+}
+
+.formular {
+    float: right;
+    margin-right: 65px;
+    margin-top: -96px;
+    width: 80px;
+}
+ 
+.formular2 {
+    background-color: #F3F2EC;
+    float: right;
+    margin-right: 160px;
+    margin-top: 38px;
+    width: 58px;
+}
+
+
+#logga {
+    left: 10px;
+    position: relative;
+    top: 30px;
+}
+
+input {padding-left:7px;
+	margin-top:1px;
+}
+
+ul.brf_namn {
+	font-family:'Open Sans', sans-serif;
+	list-style-type:none; 
+	margin-left:auto;
+	margin-right:auto;
+	width: 350px;
+	text-align:center;
+	position:relative;
+	top:-30px;
+	left:-40px;
+}
+
+#brf {
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#brf_namn {font-weight:100;
+	font-size:30px;
+	display:inline;
+}
+
+.hitta {
+    color: #06f;
+}
+
+a img { border: none; }
+
+/*---------------------------------------header--------------------------------------------*/
+
+#header { background-color:#FFF;
+	border-top: 1px solid #d0cfcb;
+	border-left:1px solid #d0cfcb;
+	border-right:1px solid #d0cfcb;
+	border-bottom:1px solid #d0cfcb;
+	border-radius: 10px;
+	-moz-border-radius:10px;  /* Firefox 3.6 and earlier */
+	width:912px;
+	height: 267px;
+	margin-bottom:7px;
+	position:relative;
+}
+
+
+#fakta {
+float:left;
+left:10px;
+top:9px;
+background-color:#f3f2ec;
+width: 148px;
+height:249px;
+position: absolute; }
+
+
+.fakta {margin-top: 20px; }
+
+#karta { float: right;
+    margin-right: 8px;
+    margin-top:-238px;
+}
+
+.lista_top { position:relative;
+top:30px;
+right:5px;
+width:150px;
+left:-10px;}
+
+.lista_top li {
+    width: 120px;
+}
+
+
+/*---------------------------------------content--------------------------------------------*/
+
+div#content {margin-top:-5px;}
+
+
+/*vänster*/
+div#left {
+	float: left;
+    width: 17%;
+	min-height:591px;
+	background-color:#FFF;
+	border:1px solid #d0cfcb;
+	border-radius: 10px;
+	-moz-border-radius:10px;  /* Firefox 3.6 and earlier */
+}
+
+
+/*center*/
+div#centerblock {border:2px solid #000;
+    float: left;
+    width: 56%;
+	min-height:300px;
+	margin-left:3px;
+	margin-right:3px;
+	border:1px solid #d0cfcb;
+	border-radius: 10px;
+	-moz-border-radius:10px;  /* Firefox 3.6 and earlier */
+	overflow:hidden;
+	background-color:#FFF;
+	margin-bottom:10px;
+}
+
+/*center*/
+div#centerblock_text {border:2px solid #000;
+    float: left;
+    width: 100%;
+	min-height:300px;
+	margin-left:3px;
+	margin-right:3px;
+	background-color:#FFF;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	-moz-border-radius:10px;  /* Firefox 3.6 and earlier */
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+#maklarinfo  { clear:both;
+margin-left:3px;
+	margin-right:3px;
+	}
+
+
+#maklarinfo_vanster {
+    margin-left: -13px;
+    width: 270px;
+}
+
+        
+.linje {margin-top:10px;
+margin-bottom:10px;
+width: 510px;
+clear:both;}
+
+.marknadskollen {
+    float:right;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+#logga_maklare {margin-left:40px; }
+
+.foto {margin-left: 35px; }
+
+/*höger*/
+div#right {
+    float: left;
+    min-height:591px;
+	background-color:#FFF;
+	border:1px solid #d0cfcb;
+	border-radius: 10px;
+	-moz-border-radius:10px;  /* Firefox 3.6 and earlier */
+	margin-left: 2px;
+    width: 23.7%;
+	position:relative;
+}
+
+/*fot*/
+div#fot { margin-top: 55px;
+    width: 99%;
+}
+
+
+/*listor*/
+
+li {list-style-type:none; 
+	z-index:20;
+	width: 170px;
+}
+
+ul { font-family:'Open Sans', sans-serif;
+	z-index:20;
+	text-decoration:none;
+	list-style-type:none;
+	font-size:11px;
+	margin-left: -10px;
+	margin-top: 15px;
+	position:relative;
+	top:20px;
+}
+
+.siffror {float: right;}
+
+ul.plats { float:left;}
+
+#list-topp {margin-top:-10px; }
+
+.align-bottom {position:absolute;
+    bottom:0;
+	font-size:11px;}
+
+
+
+/*länkar*/
+a { color:#000;
+text-decoration:none;
+}
+
+a:hover { color:#06F;
+}
+
+
+
+/*---------------------------------------medlemslogin-------------------------------------------*/
+
+#form {margin-left:30px;
+margin-rigth:15px;
+font-family:'Open Sans', sans-serif;
+font-size:11px;
+margin-top:20px;
+line-height: 20px;}

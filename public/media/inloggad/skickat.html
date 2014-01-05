@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Bostadsrätt</title>
+        <link href="css/test.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <!-- Start på Header --> 
+            <div id="header">
+
+                <img id="logga" src="img/SvenskaBrf_logga.png" width="177" height="74" alt="logotyp" /> 
+
+                <div id="center_rubrik">
+                    <ul class="brf_namn">
+                        <li id="brf">Brf</li>
+                        <li id="brf_namn">Sjöviksparken</li>
+                    </ul>
+                </div>
+
+                <form id="logga2">
+                    <input class="logga_ut" type="image" src="img/logga_ut.png" width="56" height="22" alt="logga ut" name="user" />
+                </form>
+
+            </div>
+            <!-- Slut på Header -->  
+
+
+            <!-- Start på vänster --> 
+            <div id="left">
+
+                <ul id="meny">
+
+                    <li class="vanster"><a href="index.html">HEM ></a></li>
+                    <li class="vanster"><a href="boka.html">BOKA</a>
+                        <ul>
+                            <li><a href="tvattstuga.html">Tvättstuga</a></li>
+                            <li><a href="gym.html">GYM</a></li>
+                            <li><a href="bastu.html">BASTUN</a></li>
+                        </ul>
+                    </li>
+                    <li class="vanster"><a href="dokument.html">DOKUMENT ></a>
+                        <ul>
+                            <li><a href="arsredovisningar.html">Årsredovisningar</a></li>
+                            <li><a href="protokoll.html">Protokoll</a></li>
+                            <li><a href="stadgar.html">Stadgar</a></li>
+                            <li><a href="mallar.html">Mallar</a></li>
+                            <li><a href="ovrigt.html">Övrigt</a></li>
+                        </ul>
+                    </li>
+                    <li class="vanster"><a href="bilder.html">BILDER ></a></li>
+                    <li class="vanster"><a href="kalender.html">KALENDER ></a></li>
+                    <li class="vanster"><a href="anslagstavla.html">ANSLAGSTAVLA ></a></li>
+                    <li class="vanster"><a href="anslagstavla.html">MEDDELANDE > <img class="rod_bubbla_left" src="img/rod_markering2.png" width="28" height="26" alt="antal meddelanden" /></a>
+                        <ul class="dropdown_left_siffra">
+                            <li class="siffra">1</li>
+                        </ul>
+                        <ul>
+                            <li><a href="nytt_meddelande.html">Nytt meddelande</a></li>
+                            <li><a href="inkorg.html">Inkorg <img class="rod_bubbla_left" src="img/rod_markering2.png" width="28" height="26" alt="antal meddelanden" /></a>
+                                <ul class="dropdown_left_siffra">
+                                    <li class="siffra">1</li>
+                                </ul>
+                            </li>
+                            <li><a href="skickat.html">Skickat</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="marginal_bottom"></div> 
+
+            </div>
+            <!-- Slut på vänster --> 
+            <!-- Start på innehåll --> 
+
+            <div id="contents">
+                <div class="height">
+
+                    <img id="bla_skylt" src="img/skickat.png" width="210" height="36" alt="skickat" />
+                    <div class="meddelande">
+                        <h2>Meddelande <span class="olast">(oläst)</span></h2>
+
+                        <ul>
+                            <li class="rubrik_kalender">Rubrik <span class="datum">2013-01-22</span></li>
+                            <li class="brodtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud ex <a class="anslagstavla_las" href="las_mer.html">Läs mer ></a>
+                                <ul id="utkorg">
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input type="image" name="mailremove" src="img/svara.png" width="60" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input type="image" name="mailremove" src="img/svara_alla.png" width="89" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input type="image" name="mailremove" src="img/vidarebefordra.png" width="112" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input class="utkorg2" type="image" name="mailremove" src="img/ta_bort.png" width="61" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="mellanrum3">
+                            <li></li>
+                        </ul>
+                        </ul>
+                    </div>
+
+                    <div class="meddelande">
+                        <h2>Meddelande</h2>
+
+                        <ul>
+                            <li class="rubrik_kalender">Rubrik <span class="datum">2013-01-22</span></li>
+                            <li class="brodtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud ex <a class="anslagstavla_las" href="las_mer.html">Läs mer ></a>
+                                <ul id="utkorg">
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input type="image" name="mailremove" src="img/svara.png" width="60" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input type="image" name="mailremove" src="img/svara_alla.png" width="89" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input type="image" name="mailremove" src="img/vidarebefordra.png" width="112" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input class="utkorg2" type="image" name="mailremove" src="img/ta_bort.png" width="61" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="mellanrum3">
+                            <li></li>
+                        </ul>
+                        </ul>
+                    </div>
+
+                    <div class="meddelande">
+                        <h2>Meddelande</h2>
+
+                        <ul>
+                            <li class="rubrik_kalender">Rubrik <span class="datum">2013-01-22</span></li>
+                            <li class="brodtext1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud ex <a class="anslagstavla_las" href="las_mer.html">Läs mer ></a>
+                                <ul id="utkorg">
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input type="image" name="mailremove" src="img/svara.png" width="60" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input type="image" name="mailremove" src="img/svara_alla.png" width="89" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input type="image" name="mailremove" src="img/vidarebefordra.png" width="112" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                    <li class="utkorg">
+                                        <form class="utkorg1" action="" method="post">
+                                            <input type="hidden" name="readid" value="12" />
+                                            <input type="hidden" name="action" value="mailremove" />
+                                            <input class="utkorg2" type="image" name="mailremove" src="img/ta_bort.png" width="61" height="15" alt="svara" /> 
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                    <!-- Mäklarinfo --> 
+
+                    <img class="linje" src="img/linje.png" width="524" height="12" alt="linje" />
+                    <img id="foto" src="img/foto_maklare.png" width="57" height="52" />
+                    <img id="logga_maklare" src="img/logga_maklare.png" width="106" height="56" /> 
+                    <img class="marknadskollen" src="img/Marknadskollen.png" width="250" height="121" alt="marknadskollen" />
+                    <p id="maklare_uppgifter"><strong>Erik Lindkvist</strong><br />
+                        Kontakta mig om du har frågor om bostadsmarknaden eller vill ha en kostnadsfri värdering. <a class="maklar_las" href="maklare.html">Läs ></a></p>
+                    <p id="maklare_uppgifter">
+                        Tel: +46 (0) 735 11 09 26<br/>
+                        Mail: johan.johansson@notar.se</p> 
+                    <img class="banner" src="img/banner.png" width="506" height="139" alt="banner" />
+                    <div class="marginal_bottom"></div>
+
+                    <!-- Slut på Mäklarinfo --> 
+
+
+                </div><!-- Slut på innehåll --> </div> 
+
+
+            <!-- Start på höger --> 
+
+            <div id="right">
+                <!-- Start på height --> 
+                <div id="height">
+                    <!-- Start på bokningar --> 
+                    <div class="box" id="box1">
+                        <img class="knapp" src="img/bokningar.png" />
+                        <p class="overskrift">TVÄTTSTUGA</p>
+                        <p class="datum">Söndag 15 Jul<span class="tid">13:00-16:00</span><br/> <a class="hoger_lankar" href="#">Läs ></a></p>
+                        <div class="mellanrum2"></div>
+                        <p class="overskrift">INNERGÅRDEN</p>
+                        <p class="datum">Måndag 30 Jul<span class="tid">10:00-12:00</span><br/> <a class="hoger_lankar" href="#">Läs ></a></p>
+                        <div class="mellanrum2"></div>
+                        <p class="overskrift">BASTU</p>
+                        <p class="datum">Onsdag 10 Jul<span class="tid">18:00-21:00</span><br/> <a class="hoger_lankar" href="#">Läs ></a></p>
+                        <div class="mellanrum2"></div>
+                        <p class="se_alla">
+                            <a href="boka.html" class="hoger_lankar">Se alla bokningar</a>
+                        </p>
+                    </div><!-- Slut på box --> 
+                </div><!-- Slut på height -->
+
+
+                <div id="height" class="margin_top">
+                    <!-- Start på anslagstavla --> 
+                    <div class="box" id="box2"> 
+                        <img class="knapp" src="img/anslagstavla.png" /> 
+                        <img class="rod_bubbla" src="img/rod_markering.png" width="32" height="28" alt="meddelanden" /><ul id="dropdown2">
+                            <li class="siffra"><a href="#">1</a></li>
+                        </ul>
+                        <p class="overskrift">GLÖM INTE</p>
+                        <p class="namn">Sasan Faghihi, 4tr</p>
+                        <p class="datum2">12:30 Måndag 15 Aug</p>
+                        <p class="text">Kan ni snälla komma ihåg att jag stavar mitt namn med ett s. Om ni fortsätter att stava fel...<br/> <a class="hoger_lankar"href="#">Läs ></a></p>
+                        <div class="mellanrum2"></div>
+                        <p class="overskrift">HEJ</p>
+                        <p class="namn">Andreas Kärrfelt, 2tr</p><img class="kamera" src="img/bla_markering.png" width="31" height="22" />
+                        <p class="datum2">16:30 Fredag 10 Aug</p>
+                        <p class="text">Tjena grabbar! Jag ska ha en sjuhelvetes fest snart och hoppas att jag inte kommer att störa...<br/> <a class="hoger_lankar" href="#">Läs ></a></p>
+                        <div class="mellanrum2"></div>
+                        <form>
+                            <label>
+                                <input class="meddelande" type="image"  src="img/gor_ett_inlagg.png" width="100" height="29" alt="Gör ett inlägg" />
+                            </label>
+                        </form>
+
+                        <p class="se_alla">
+                            <a href="meddelanden.html" class="hoger_lankar">Se alla inlägg</a>
+                        </p>
+                    </div><!-- Slut på box --> 
+                </div><!-- Slut på height --> 
+
+                <div id="height" class="margin_top">
+                    <!-- Start på kalender --> 
+                    <div class="box" id="box1"> 
+                        <img class="knapp" src="img/kalender.png" width="132" height="34" alt="kalender" />
+                        <p class="overskrift">TVÄTTSTUGA</p>
+                        <p class="datum">Söndag 15 Jul<span class="tid">13:00-16:00</span><br/> <a class="hoger_lankar" href="#">Läs ></a></p>
+                        <p class="se_alla">
+                            <a href="kalender.html" class="hoger_lankar">Se hela kalendern</a>
+                        </p>
+                    </div><!-- Slut på box --> 
+
+                </div><!-- Slut på height --> 
+            </div>
+            <div id="footer"><p>Kontakt</p><img id="fotbild" src="img/fot.png" width="920" height="94" alt="fot" /></div>
+        </div><!-- Slut på wrapper --> 
+
+    </body>
+</html>
+

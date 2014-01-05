@@ -1,0 +1,865 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*övergripande för sidan---------------------------------------------------*/
+
+html { height: 100%;
+    overflow: auto;
+	}
+	
+
+
+body { background-color:#f3f2ec;
+font-family:'Open Sans', sans-serif;
+font-size: 62.5%;
+}
+
+#wrapper { height: 99%;
+background-color:#f3f2ec;
+width: 940px;
+margin:auto;
+}
+	
+
+h1 { font-family:'Open Sans', sans-serif;
+margin-left: 20px;
+margin-top: 40px;
+font-size:17px;}
+
+
+h2 {margin-left :20px;
+font-family:'Open Sans', sans-serif;}
+
+h4 { font-family:'Open Sans', sans-serif;
+font-size:18px;
+margin:auto;}
+ 
+h4 a {margin:auto; }
+
+h5  { font-family:'Open Sans', sans-serif;
+margin-left: 20px;
+margin-top: 40px;
+font-size:15px;}
+
+p { font-family:'Open Sans', sans-serif;
+margin-left: 15px;
+font-size:11px;
+margin-right:15px;}
+
+.linje {margin-top:10px;
+margin-bottom:10px;
+width: 530px;
+clear:both;}
+
+.las { padding-top: 10px;}
+
+
+
+
+
+
+/*huvud---------------------------------------------------*/
+div#header {
+    background-color: #F3F2EC;
+    margin-top: -30px;
+    padding: 2px;
+    width: 99%;
+}
+
+#center_rubrik {
+    margin-left: 18%;
+    margin-right: 26%;
+    margin-top: -50px;
+}
+
+ul.brf_namn {
+font-family:'Open Sans', sans-serif;
+list-style-type:none; 
+margin-bottom: -20px;
+text-align:center;
+position:relative;
+top:15px;
+}
+
+#brf {font-weight:100;
+font-weight:bold;
+font-size:30px;
+display:inline;
+}
+
+#brf_namn {font-weight:100;
+font-size:30px;
+display:inline;
+}
+
+#logga2 {
+    left: 835px;
+    position: relative;
+    top: 15px;
+}
+
+#logga {
+    left: 1px;
+    position: relative;
+    top: 25px;
+}
+
+input.logga_ut {border:none;}
+
+input.meddelande {border:none;}
+
+
+
+
+/*vänsterspalt---------------------------------------------------*/
+
+
+
+div#left {
+	min-height:882px;
+	float: left;
+    width: 18%;
+	background-color:#FFF;
+	border-top: 2px solid #d0cfcb;
+	border-left:1px solid #d0cfcb;
+	border-right:1px solid #d0cfcb;
+	border-bottom:1px solid #d0cfcb;
+border-radius: 10px;
+-moz-border-radius:10px;  /* Firefox 3.6 and earlier */
+}
+
+/*
+#meny {
+	font-family:'Open Sans', sans-serif;   
+	font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	margin-top:30px;
+}
+
+ul .vanster {
+    display: block;
+  	position: relative;
+    float: left;
+	font-weight:bold;
+}
+
+.vanster ul {
+    display: none;
+}
+
+ul .vanster a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    min-width:136px;
+    padding: 2px 15px 2px 15px;
+    background: #fff;
+    margin-left: 1px;
+	margin-bottom:7px;
+    white-space: nowrap;
+	text-align:left!important;
+}
+
+ul .vanster a:hover {
+background: #e7e7e7;
+border: 1px solid #98daff;
+margin-top:-1px;
+margin-left:-1px;
+}
+
+.vanster:hover ul {
+    display: block;
+    position: absolute;
+	margin-left:-19px;
+	padding-right:20px;
+}
+
+.vanster:hover li {
+    float: none;
+    font-size: 11px;
+	margin-left:-19px;
+	padding-right:20px;
+}
+
+.vanster:hover a { background: #fff; }
+.vanster :hover li a:hover { background: #fff;
+border:1px solid #fff;
+margin-left:-1px;
+}*/
+
+
+/*röd bubbla och siffra - vänster*/
+/*
+.rod_bubbla_left {
+    float: right;
+    margin-top: -4px;
+}*/
+
+ul .dropdown_left_siffra { 
+margin-top:-30px;
+width:10px;
+}
+
+.siffra {color:#fff;
+position:relative;
+left:114px;
+top:-1px;
+background:url('../img/rod_markering2.png') no-repeat;
+width:60px;
+height:60px;
+text-align:center;
+}
+
+.siffra1 {color:#fff;
+position:relative;
+left:121px;
+top:-2px;
+background-image: url(../img/rod_markering2.png); 
+width:22px; 
+height:20px; 
+text-align:center;
+
+}
+
+
+
+
+
+
+
+/*innehåll center---------------------------------------------------*/
+div#contents {border:2px solid #000;
+    float: left;
+    width: 57%;
+	margin-left:3px;
+	margin-right:3px;
+	background-color:#FFF;
+	border-top: 2px solid #d0cfcb;
+	border-left:1px solid #d0cfcb;
+	border-right:1px solid #d0cfcb;
+	border-bottom:1px solid #d0cfcb;
+	border-radius: 10px;
+	-moz-border-radius:10px;  /* Firefox 3.6 and earlier */
+	min-height:882px;
+}
+
+
+
+/*alla sidor*/
+#bla_skylt { margin-top:30px;
+}
+
+
+/*länkar*/
+a { text-decoration:none;
+color: #333;
+padding-top:10px;
+}
+
+a:hover { 
+color:#09F;
+}
+
+a:visit {
+width: 198px;
+height: 60px;
+color:#09F;
+}
+
+a.hoger_lankar { color:#09F;
+position: relative;
+top:5px;
+margin-left:5px;
+}
+
+
+.align-bottom { color:#09F;
+position: absolute;
+bottom:0px;
+right:10px;
+}
+
+
+
+
+/*mäklaruppgifter*/
+	
+.marknadskollen {
+    float: right;
+    margin-right: 15px;
+}
+
+#foto { float: left;
+margin-left:20px;
+border: 1px solid #CCC;
+}
+
+#logga_maklare { margin-left:50px;
+}
+
+#maklare_uppgifter {
+    margin-left: 20px;
+    margin-top: 5px;
+	font-size:12px;
+}
+
+#content_maklare {margin-top: 50px;
+margin-bottom: 50px;
+}
+	
+#vanster_maklare {float:left;
+margin-left:15px;
+width: 160px;
+}
+
+#hoger_maklare {float:right;
+margin-right:15px;
+width: 320px;
+padding-left:20px;
+}
+
+.maklar_logga {float:right;
+}
+
+.maklar_sidan {margin-left:1px; 
+}
+
+.maklar_las  { color:#09F;}
+
+p .maklar_las  { color:#09F;}
+
+
+
+/*banner*/
+.banner {margin-left: 15px;
+margin-top: 15px;}
+
+
+
+/*index.html*/
+.forening_bild {margin-left: 10px;
+margin-top:8px;}
+
+
+
+/*boka.html*/
+
+.pil_hoger {
+    float: right;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+.pil_vanster {
+    float: left;
+    margin-left: 20px;
+}
+
+.tid { float: right;
+}
+
+#kalender_top {height:20px;
+margin-top:20px;
+
+}
+
+#vecka_center { width: 200px;
+margin:auto;
+}
+
+#vecka {
+font-size:18px;
+text-align:center;
+background-color:#FFF;
+}
+
+
+.bokning_kalender { cursor:pointer;
+background-color:#dbebf2;
+}
+
+.tabell_bokning {width: 510px; 
+}
+
+.tabell_bokning tr td {background-color:#fff;
+}
+
+.bold {font-weight:bold; 
+}
+
+.paminnelse { font-size:14px;
+font-weight:bold;
+font-family: 'Open Sans',sans-serif;}
+
+
+.checkbox {margin-top:20px; }
+
+
+/*dokument.html*/
+
+.dokument { font-family:'Open Sans', sans-serif;
+margin-left:-340px;
+font-size:16px;
+margin-top: 30px;
+width: 800px;
+}
+
+.vanster_lista {margin-left:200px;
+margin-top:20px;
+}
+
+
+.oppna a {margin-left:100px; 
+color:#09F;
+}
+
+.spara a {margin-left:100px;
+color:#09F;
+}
+
+.boka_knapp {margin-left:400px; }
+
+input .boka_knapp  {border: none;}
+
+
+
+/*kalender.html */
+
+#kalender {width:500px; 
+}
+
+table { margin-top:30px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:30px;
+}
+
+td {
+    background-color: #F3F2EC;
+    font-size: 12px;
+    height: 30px;
+    padding: 20px 10px 10px;
+    text-align: center;
+    width: 70px; 
+}
+ 
+td:hover {background-color:#CCC; 
+}
+
+
+.color { color:#00a2ff; }
+
+
+.rubrik_kalender {font-weight:bold;
+text-align:left; }
+
+.rubrik_kalender1 {font-weight:bold;
+text-align:left; 
+margin-left:-10px;
+list-style-type:none;}
+
+
+.mellanrum1 {
+    border-bottom: 1px solid #DDDDDD;
+    margin-left: 20px;
+    width: 460px;
+}
+
+
+
+/*anslagstagla.html, anslagstavla_las_mer.html, anslagstavla_skriv_meddelande */
+
+.brodtext {text-align:left;
+margin-right:50px;}
+
+.brodtext a {color:#09F;}
+
+.stor_bild_anslagstavla {margin-top:20px; margin-left:10px; }
+
+.thumb {float:right;
+margin-right:10px;
+margin-left:10px;}
+
+.brodtext1 {margin-left:30px;
+margin-right:30px; 
+}
+
+.rubrik_kalender1 {font-weight:bold;
+text-align:left; 
+margin-left:-10px;}
+
+.tillbaka a {
+    color: #0099FF;
+    margin-left: 15px;
+}
+
+input.inlagg {border:none; 
+}
+
+.mellanrum {
+    border-bottom: 1px solid #DDDDDD;
+    margin-left: -20px;
+    width: 455px;
+}
+
+
+/*stor bild (övrig css ligger i headern för bilder)*/
+
+.mittenbild {max-width: 515px;
+margin-left:10px; 
+margin-top:10px;}
+
+/*ladda_upp-bild.html*/
+
+#bildvisning {margin-top:20px;
+margin-bottom:20px;}
+
+div.img1 { border: 1px solid #000000;
+    height: 78px;
+    margin: 2px 2px 2px 25px;
+    text-align: center;
+    width: 78px; }
+
+div.img1 img {display:block;
+margin:3px;
+  border:1px solid #ffffff;}
+
+div.img {
+    border: 1px solid #000000;
+	height: auto;
+    margin: 2px 2px 2px 25px;
+    text-align: center;
+    width: 100px;}
+
+div.img img {
+  display:inline;
+  margin:3px;
+  border:1px solid #ffffff;}
+  
+div.img a:hover img {
+  border:1px solid #0000ff;}
+  
+div.desc {
+    font-size: 10px;
+    font-weight: normal;
+    margin: 2px;
+    text-align: center;
+    width: 40px;}
+	
+.olast {font-style:italic; }
+
+
+
+
+
+/*skickat.html, inkorgen.html, nytt_meddelande.html */
+.mellanrum3 {
+    border-bottom: 1px solid #DDDDDD;
+    margin-left: -25px;
+    width: 460px;
+}
+
+#utkorg .utkorg1 {
+    margin-left: 5px;
+}
+
+.utkorg {
+    display: inline!important;
+    float: left;
+}
+
+.utkorg1 input {border:none }
+
+#utkorg { margin-left: -65px;
+margin-bottom:50px;
+margin-top:15px;
+}
+
+.utkorg2 { margin-left: 20px; 
+}
+
+.meddelande {margin-top:20px;
+clear:both;
+margin-left: 43px;
+}
+
+
+
+/*nytt meddelande -form */
+
+input { border-radius:5px; 
+border:1px solid #CCC;
+margin-bottom:20px;}
+
+textarea { border-radius:5px;
+border:1px solid #CCC;
+margin-bottom:20px;}
+
+select { border-radius:5px;
+border:1px solid #CCC;
+margin-bottom:20px;
+width:170px;}
+
+#kontaktform {margin-left:20px;
+margin-top:40px;
+width: 200px;}
+
+
+#autocomplete {float:right;
+margin-right:30px;
+margin-top:-300px;
+width:170px;
+font-family: 'Open Sans',sans-serif;
+font-size: 12px;}
+
+#tags {width: 170px;}
+
+#submit {border:none;}
+
+
+/*dina bokningar*/
+
+#val { margin-left:20px; 
+font-size:18px; 
+text-decoration:underline;}
+
+.dina_bokningar {background-color:#fff; 
+text-align:left;
+font-size:11px;
+}
+
+.dina_bokningar:hover {background-color: #fff; }
+
+#tid_bokning {font-weight:bold; 
+width: 40px;}
+
+#ta_bort_bokning {width: 90px;}
+
+#ta_bort_sms {width: 130px;}
+
+#ta_bort_mail {width: 130px;}
+
+.plats_bokning {text-align:left;
+font-size:18px;}
+
+
+
+/*högerspalt---------------------------------------------------*/
+div#right {
+    float: left;
+    width: 22%;
+	background-color:#FFF;
+	border-top: 2px solid #d0cfcb;
+	border-left:1px solid #d0cfcb;
+	border-right:1px solid #d0cfcb;
+	border-bottom:1px solid #d0cfcb;
+	border-radius: 10px;
+	-moz-border-radius:10px;  /* Firefox 3.6 and earlier */
+	min-height:882px;
+}
+
+.box {
+   
+    border: 1px solid #3399FF;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 5px;
+    min-height: 150px;
+	height:auto;
+    position: relative;
+    top: 5px;
+    width: 195px;
+}
+	
+ 
+#box1 {
+    background-color: #D8EAEE;
+    margin-bottom: 10px;
+}
+	
+#box2 { background-color: #e9e6e6; 
+}
+
+
+.overskrift { margin-top: 10px;
+margin-left: 10px;
+font-size:11px;
+font-weight:bold;
+}
+
+.text { margin-top:10px;
+margin-left:10px;
+}
+
+.datum { margin-top:10px;
+margin-left:10px;
+}
+
+.datum2 { margin-top:10px;
+margin-left:10px;
+}
+
+.namn { margin-top:10px;
+}
+
+
+.knapp { margin-top:10px; 
+}
+
+
+
+.kamera {
+    float: right;
+    margin-right: 15px;
+    margin-top: -30px;
+}
+
+.se_alla { font-style:italic; 
+margin-left:80px;
+}
+
+
+/*dropdown- röd knapp*/
+
+.rod_bubbla { margin-left: 145px;
+    position: relative;
+    top: -32px;
+	margin-bottom: -30px;
+}
+	
+#dropdown2 {
+ margin: 0;
+ padding: 0;
+}
+
+#dropdown2 li {
+	height: 15px;
+    left: 146px;
+    list-style: none outside none;
+    margin: 0;
+    position: relative;
+    top: -25px;
+    width: 10px;
+}
+
+#dropdown2 li a {
+ text-decoration:none;
+ color:#FFF;
+}
+
+#dropdown2 ul {
+ position: absolute;
+}
+
+
+
+/*lista bokningar*/
+ul {font-family: 'Open Sans', sans-serif;
+font-weight:200;
+font-size:11px;
+color:#000;
+list-style-type: none;
+}
+
+li {font-family: 'Open Sans', sans-serif;
+font-weight:100;
+font-size:11px;
+color:#000;
+margin-bottom: 10px;
+list-style-type:none;
+margin-right:10px;
+text-align:center;
+}
+
+.dropdown {
+    position: relative;
+    text-align: center;
+    top: 3px;
+}
+
+.marginal_bottom { height: 10px;
+background-color:#FFF;
+margin-bottom: 5px;}
+
+.margin_top {margin-top:10px;}
+
+.mellanrum2 {
+    border-bottom: 1px solid #C0C0C0;
+    margin-left: 10px;
+    width: 175px;
+}
+
+
+
+
+
+/*fot----------------------------------------------*/
+div#footer {
+    clear: both;
+    height: 20%;
+    margin-top: 3px;
+    padding: 2px;
+    width: 920px;
+		border-top: 1px solid #d0cfcb;
+	border-left:1px solid #d0cfcb;
+	border-right:1px solid #d0cfcb;
+	border-bottom:1px solid #d0cfcb;
+	border-radius: 10px;
+-moz-border-radius:10px;  /* Firefox 3.6 and earlier */
+background-color:#FFF;
+position:relative;
+top:3px;}
+
+#fotbild {padding-bottom:10px;}
+
+.kontakt_fot {text-align:center;
+font-size:16px;
+font-weight:bold;
+margin-top:50px;
+}
+
+
+/*medlemslogin_sidor----------------------------------------------*/
+
+.presentationstext {margin-left:15px; }
+
+.beskrivning {clear:both; }
+
+.form {margin-left:10px; }
+
+
+.medlemslogin_dokument .dokument1 {
+text-align:left;}
+
+.medlemslogin_dokument li a { color:#09F; }
+
+.ladda_upp {margin-left:40px; 
+margin-top:10px;}
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+	
+	

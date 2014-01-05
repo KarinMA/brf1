@@ -1,0 +1,62 @@
+/* liScroll styles */
+
+
+
+
+   .tickercontainer {
+                background: none repeat scroll 0 0 #FFFFFF;
+                border: 0 solid #000000;
+                height: 30px;
+                margin: -5px 0 0;
+                overflow: hidden;
+                padding: 0;
+            }
+
+
+
+  .tickercontainer .mask {
+                height: 30px;
+                left: 0;
+                overflow: hidden;
+                position: relative;
+                top: 1px;
+                width: 718px;
+            }
+
+
+
+  ul.newsticker li {
+                background: none repeat scroll 0 0 #FFFFFF;
+                float: left;
+                margin: 0;
+                padding: 0 0 5px;
+            }
+            
+            /*
+             ul.newsticker a {
+                color: #000000;
+                font-size: 14px;
+                font-weight: 100;
+                height: 0;
+                margin: 0 50px 0 0;
+                padding: 0;
+                white-space: normal;
+            }
+*/
+
+
+
+ul.newsticker { /* that's your list */
+    position: relative;
+    left: 750px;
+    font: bold 10px Verdana;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+ul.newsticker span {
+    margin: 0 10px 0 0;
+} 

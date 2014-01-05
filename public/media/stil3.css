@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { background-color: #f3f2ec; }
+
+#wrapper { margin-left: auto;
+margin-right: auto;
+width: 927px; }
+
+p { font-family:'Open Sans', sans-serif;
+margin-left: 10px;
+font-size:12px;}
+
+p.centertext {margin-left: 40px;
+margin-right: 40px;
+margin-top: -380px;}
+
+/*header*/
+
+#top { width: 927px;
+margin-top: 0px;
+margin-bottom: 0px;}
+
+h3 {font-family:'Open Sans', sans-serif;
+font-weight:100;
+font-weight:bold;
+font-size:30px;
+margin-top: -90px;
+margin-left: 320px;}
+
+h2 {font-family:'Open Sans', sans-serif;
+font-weight:100;
+font-size:30px;
+margin-top: -70px;
+margin-left: 370px;}
+
+
+h4 {font-family:'Open Sans', sans-serif;
+font-weight:100;
+font-size:30px;
+position:relative;
+top:-370px;
+left:35px;}
+
+#namn {
+position:relative;
+left:80px;
+top: -38px;
+}
+
+.namn {
+font-family:'Open Sans', sans-serif;
+font-weight:100;
+font-size:12px;
+margin-left: 15px;
+padding-bottom: 12px;
+}
+
+#losen { position:relative;
+top: -40px;
+left: 80px;
+}
+
+.losen {margin-left:20px;
+margin-top:-40px;}
+
+#ok {position:relative;
+top:-40px;
+left: 135px;}
+
+#logga { position:relative;
+left: 760px;
+top: -160px;}
+
+.logga_in {  background-image: url("/b/media/brf/img/lgin.png");
+background-repeat: no-repeat;
+    height: 25px;
+   width: 105px;
+   border: none;
+   background-color: #f3f2ec;
+   }
+ 
+ .formular { left: -40px;
+    position: relative;
+    top: -10px;
+	 width: 200px;}
+ 
+ .formular2 { 
+ left: -38px;
+    position: relative;
+    top: 47px;
+	background-color: #f3f2ec;
+	 width: 200px;}
+ 
+ #logga_ut {font-size:10px;}
+ 
+
+
+input {padding-left: 10px;
+margin-top:1px;}
+
+ul.brf_namn {
+font-family:'Open Sans', sans-serif;
+list-style-type:none; 
+margin-bottom: -20px;
+margin-left:auto;
+margin-right:auto;
+width: 350px;
+position:relative;
+top: -170px;}
+
+#brf {font-weight:100;
+font-weight:bold;
+font-size:30px;
+display:inline;}
+
+#brf_namn {font-weight:100;
+font-size:30px;
+display:inline;}
+	
+	
+
+
+/*content*/
+
+#innehall_topp { position:relative;
+top:-160px;}
+
+#fakta { position:relative;
+top: -266px;
+margin-left: 14px;
+z-idex:10;}
+
+.lista6 {left: -10px;
+    position: relative;
+    top: -690px;}
+
+#mittenbild { position:relative;
+top: -264px; 
+left:6px;}
+#karta { position:relative;
+top: -266px; 
+left:12px;}
+
+#leftblock {
+    float: left;
+    height: 600px;
+    margin-left: 2px;
+    margin-top: -425px;
+    width: 172px;}
+
+ul { font-family:'Open Sans', sans-serif;
+z-index:20;
+text-decoration:none;
+list-style-type:none;
+font-size:11px;}
+
+a { color:#000;
+text-decoration:none;
+padding-left: 27px;
+padding-right:60px;
+margin-left: -27px;}
+
+a:hover { background-image:url(/b/media/brf/img/bakgrund_hover.png); 
+}
+
+li {list-style-type:none; 
+z-index:20;}
+
+.lista1 {position: relative;
+top:-590px;
+left:-10px;}
+.lista2 {position: relative;
+top:-580px;
+left:-10px;}
+
+.lista3 {position: relative;
+top:-440px;
+left:-15px;
+width:200px;}
+
+.lista33 { position: relative;
+top:-481px;
+left:130px;
+text-align:right;
+width:30px;}
+
+.lista4 {position: relative;
+top:-470px;
+left:-15px;
+width:200px;}
+
+
+.lista44 { position: relative;
+top:-510px;
+left:130px;
+text-align:right;
+width:30px;}
+
+.lista5 {position: relative;
+top:-500px;
+left:-15px;
+width:200px;}
+
+.lista55 { position: relative;
+top:-525px;
+left:130px;
+text-align:right;
+width:30px;}
+
+#centerblock {  height: 800px;
+    left: 169px;
+    position: relative;
+    top: -598px;
+    width: 529px;}
+
+#maklare { margin-top:53px;}
+
+#rightblock { clear:both;
+position: relative;
+left: 692px;
+top:-1222px;
+}
+
+
+#reklam_botten { position: relative;
+top: -1506px;
+left:5px;
+width: 915px;
+height: 162px;}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}

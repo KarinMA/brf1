@@ -1,0 +1,47 @@
+
+
+        
+/*---------built-in navigation bullets--------*/
+
+/* Note: the navBullets won't be available when the "scrollByEachThumb" option was set to false in the Javascript.*/
+#mcts1 .navBullets
+{
+    /*display:none;*/ /*set it display:none when you don't need it*/
+	display:block;
+	cursor:pointer;
+	/*Specify its position that is relative to the div#mcts1 */
+	position:relative;
+	bottom:270px;
+	left:360px;
+	width:80px;height:20px;
+	z-index:5;
+}
+
+.navNext, .navPrev, .navPause {
+    display:none;
+}
+
+/* Below defines the style of each bullet*/
+#mcts1 .navBullets a 
+{
+    display:inline-block;
+    width:13px; height:13px;
+    background:transparent url(bullet.png) no-repeat 0 0;
+    float:left;overflow:hidden;vertical-align:middle;cursor:pointer;
+    margin-right:6px;/*margin-right determines the distance between each bullets*/
+}
+#mcts1 .navBullets a:hover {background-position:0 -13px;}
+#mcts1 .navBullets .active {background-position:0 -26px;}
+#mcts1 .navBullets a.active:hover {background-position:0 -26px;}
+
+
+/* --------- Others ------- */
+#mcts1
+{
+	transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+
